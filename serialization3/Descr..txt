@@ -1,0 +1,8 @@
+﻿This program generates 100 random weather measurements incl. random TimeDate, random cloud cover, random temperature, random wind direction and speed and random humidity, 
+and sorts the data based on the latest measurement date.
+Additionally, Cloud Cover and Wind Derection are represented by Enums.
+The program instanciates 100 measurements into a generic list, and displays them in the console.
+Serialization is implemented by means of an interface.
+Next, it serializes the data into a .csv file.
+The program can also deserializes data from the same .csv file. The regional separator used for a .csv file is semicolon.
+
